@@ -2,7 +2,7 @@
   "name": "react-default",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fabralbert.gitlab.io/fabristov_albert_anime_search_project/",
+  "homepage": "https://fabralbert.github.io/react-anime-search",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "nmp run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
