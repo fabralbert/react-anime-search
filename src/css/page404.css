@@ -1,0 +1,36 @@
+.container{
+  min-height: 95vh;
+}
+
+.page404-wrapper{
+text-align: center;
+padding-top: 40px;
+  
+}
+
+.page404-title{
+  font-size: 60px;
+}
+
+.page404-text{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.page404-btn{
+height: 40px;
+margin-top: 20px;
+padding: 10px;
+font-size: 30px;
+color: black;
+border: 1px solid black;
+border-radius: 50px;
+background-color: #fff;
+}
+
+.page404-btn:hover{
+  background-color: #313131;
+  color: #EEE;
+  border: 1px solid black;
+  border-radius: 50px;
+}

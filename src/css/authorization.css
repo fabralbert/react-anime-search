@@ -1,0 +1,69 @@
+.authorization-wrapper{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.authorization-wrapper input{
+  border-radius: 10px;
+}
+
+.authorization-title{
+  color: #fff;
+  padding-bottom: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.login-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input input{
+  margin: 7px 0 10px;
+}
+
+.password-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.password-input input{
+  margin-bottom: 15px;
+  margin-top: 7px;
+}
+
+.authorization-btn{
+  font-size: 100px;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.authorization-btn:hover{
+  background-color: #313131;
+  color: #EEE;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+
+  .authorization-wrapper{
+    font-size: 24px;
+  }
+}
+
+

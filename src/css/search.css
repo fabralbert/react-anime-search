@@ -1,0 +1,86 @@
+.inputs-wrapper{
+  height: 100px;
+}
+
+
+.search-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-wrapper input{
+  appearance: none;
+  background: none;
+  outline: none;
+  border: 1px solid black;
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  padding: 16px;
+  border-radius: 50px;
+  background-color: #EEE;
+  transition: 0.4s;
+  font-size: 24px;
+}
+
+.search-wrapper input::placeholder{
+  color: #888;
+}
+
+input:focus{
+  background-color: #313131;
+  color: #EEE;
+}
+
+.search-wrapper button{
+  margin-left: 10px;
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.search-wrapper button:hover{
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: #313131;
+  color: #EEE;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.radio-buttons-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.radio-buttons-wrapper input[type=radio] {
+	display: none;
+}
+.radio-buttons-wrapper label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: none;
+	border-radius: 20px;
+	user-select: none;
+  background-color: #f8d28b;
+}
+ 
+.radio-buttons-wrapper input[type=radio]:checked + label {
+	background: rgb(16, 195, 121);
+}
+ 
+.radio-buttons-wrapper label:hover {
+  box-shadow: 0 0 10px #EEE;
+}
+ 
+.radio-buttons-wrapper input[type=radio]:disabled + label {
+	background: #EEE;
+	color: #666;
+}
